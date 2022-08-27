@@ -1,0 +1,27 @@
+{
+  "name": "project-2of3-coh",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "idb": "^7.0.2",
+    "lit": "^2.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "2.7.1",
+    "vite": "^3.0.7"
+  }
+}
